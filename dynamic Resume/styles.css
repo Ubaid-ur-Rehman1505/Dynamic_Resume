@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    background-image: url("https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg");
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  h1 {
+    color: #15e684;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  } 
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #b67f08;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  button:hover {
+    background-color: #d6a02c;
+  }
+  
+  #resume-output {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resume-section {
+    margin-bottom: 20px;
+  }
+
+  
+  
+  @media screen and (max-width: 600px) {
+    form, #resume-output {
+      padding: 10px;
+    }
+  
+    input, button {
+      width: 100%;
+    }
+  }
